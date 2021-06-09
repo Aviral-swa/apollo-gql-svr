@@ -1,0 +1,23 @@
+type IData  {
+  name: String
+  testId: ID
+  city: String
+}
+
+type info {
+  data: Iinfo
+  message: String
+  status: Int
+}
+
+type users  {
+  message: String
+  status: Int
+  data: [IData]
+}
+
+
+type Iinfo {
+  testId: ID
+  city: String
+}
